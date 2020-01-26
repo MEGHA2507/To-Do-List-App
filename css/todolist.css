@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+body{
+    background:radial-gradient(rgb(163, 222, 245), rgb(5, 5, 201))
+    no-repeat center center fixed;
+    background-size: cover;
+}
+
+.wrapper{
+    width: 300px;
+    height: 350px;
+    margin:125px auto;
+    border: solid 2px black;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    background-color:rgb(103, 241, 10);
+    border-radius:20px 20px 0px 0px;
+    font-size: 30px;
+    padding-top: 10px;
+    border-bottom: dashed 3px rgb(189, 34, 7);
+    font-style: italic;
+}
+
+span{
+    display: block;
+    height: 90%;
+    width:100%;
+}
+
+.wrap-list{
+    height: 85%;
+    width:100%;
+    border-radius: 0 0 10px 10px;
+}
+
+input[type="checkbox"]{
+    position: relative;
+    top: 10px;
+    right:10px;
+    float: right;
+}
+
+input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.list{
+    list-style: none;
+}
+
+.list li{
+    width: 100%;
+    float:left;
+}
+
+label{
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    float:left;
+    width: 90%;
+}
+
+.yellow{
+    background-color:yellow;
+}
+
+.violet{
+    background-color:rgb(220, 143, 250);
+}
